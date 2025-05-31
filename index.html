@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StudyGenie Website</title>
+    <style>
+      .hero {
+        width: 600px;
+        object-fit: contain;
+        object-position: left;
+      }
+      .quiz {
+        width: 300px;
+        object-fit: contain;
+        object-position: top;
+        margin-right: 10px;
+      }
+      .flashcard {
+        width: 300px;
+        object-fit: contain;
+        object-position: top;
+        margin-left: 30px;
+        
+      }
+      .studyplan {
+        width: 300px;
+        object-fit: contain;
+        object-position: top;
+        margin-left: 30px;
+      }
+      
+
+      .signup-button {
+        background-color: purple;
+        border: none;
+        color: white;
+        height: 40px;
+        width: 110px;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition:background-color 1s,
+        color 1s;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+      }
+
+      .signup-button:hover {
+        background-color: rgb(202, 28, 106);
+        color: black;
+      }
+
+      .signup-button:active {
+        opacity: 0.5;
+      }
+
+      .login-button {
+         background-color: purple;
+        border: none;
+        color: white;
+        height: 40px;
+        width: 110px;
+        border-radius: 20px;
+        margin-left: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 1s;
+        margin-top: 30px;
+        margin-bottom: 30px;
+       
+      }
+
+      .login-button:hover {
+         box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.55);
+
+      }
+
+      .login-button:active {
+        opacity: 0.5;
+      }
+
+      .mobilemenutoggle-button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .trythedemo-button {
+        background-color: purple;
+        border: none;
+        color: white;
+        height: 40px;
+        width: 110px;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition:background-color 1s,
+        color 1s;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+      }
+
+      .trythedemo-button:hover {
+         background-color: rgb(72, 28, 202);
+        color: black;
+      }
+
+      .trythedemo-button:active {
+        opacity: 0.5;
+      }
+
+      .learnmore-button {
+          background-color: purple;
+        border: none;
+        color: white;
+        height: 40px;
+        width: 110px;
+        border-radius: 20px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow 1s;
+      }
+
+      .learnmore-button:hover {
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.55);
+
+      }
+
+      .learnmore-button:active {
+        opacity: 0.5;
+      }
+
+      .logo-div {
+        font-size: 45px;
+        font-weight: bold;
+
+      }
+
+      .nav-ul {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .herosub-link {
+        font-size: 20px;
+      }
+
+
+    </style>
+
+    <body>
+      <header>
+        <nav class="navbar">
+            <div class="logo-div">StudyGenie</div>
+            <ul class="nav-ul">
+
+               <li><a href="#hero-section">Hero Section</a></li>
+               <li><a href="#about-us-section">About Us</a></li>
+               <li><a href="#screenshots-section">Screenshots</a></li> 
+               <li><a href="#social-proof-section">Social Proof</a></li>
+               <li><a href="#faq-section">FAQ</a></li> 
+            </ul>
+
+             <div class="buttons">
+                 <button class="signup-button">Sign Up</button>
+                 <button class="login-button">Log In</button>
+
+             </div>
+             <button class="mobilemenutoggle-button">&#9776;</button>
+      
+        </nav>
+
+        <section class="hero-section">
+            <div class="hero-content">
+              <h1>Unlock Your Study Superpowers with StudyGenie</h1>
+
+              <img class="hero" src="hero_image.jpg" alt="students."> 
+
+
+              <p>Personalized Study Plans, Quizzes, Summaries & Flashcards - All from your Notes.</p>
+
+              <div class="hero-cta-buttons">
+                <button class="trythedemo-button">Try the Demo</button>
+                <button class="learnmore-button">Learn More</button>
+
+               </div>
+               <li class="herosub-link"><a href="hero-sub-link">See how StudyGenie can revolutionize your learning!</a></li>
+                 
+            </div>
+        </section>
+      </header>
+
+      <main>
+        <section id="about" class="about-section">
+          <div class="container"> <h2>About Us</h2>
+            <h3>What StudyGenie is all about.</h3>
+            <div class="about-content-grid"> <div class="about-column">
+              <p>It is an AI-Powered tool designed to help students like you create study plans and automatically generate essential study materials such as quizzes, summaries and flashcards directly from your own notes.</p>
+              
+            </div> 
+          </div>
+        </section>
+
+        <section id="screenshots" class="screenshots-section">
+          <div class="container">
+            <h2>StudyGenie in Action(SreenShots)</h2>
+            <div class="screenshot-grid">
+              <img class="quiz" src="quiz_screenshot.png" alt="Screenshot of quiz.">
+              <img class="flashcard" src="flashcard_screenshot.png" alt="Screenshot of flashcard.">
+              <img class="studyplan" src="study_plan_screenshot.png" alt="Screenshot of study plan.">
+
+            </div> 
+          </div>
+        </section>
+        
+        <section id="social-proof" class="social-proof-section">
+          <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonials-grid">
+              <div class="testimonial-card">
+                <p>"StudyGenie transformed my study habits!I highly recommend it."</p>
+                <cite>- Tiara Williams, University Student</cite>
+
+              </div> 
+              <div class="testimonial-card">
+                <p>"The personalized plans truly made a difference in my overall grades."</p>
+                <cite>- Donnell Martin, High School Student</cite>
+
+              </div>
+            </div>
+            <h3>Trusted By:</h3>
+            <div class="trust-logos">
+              <p>Eduactional Endorsements.</p>
+              <p>Data security badges.</p>
+
+              
+              
+            </div>
+          </div>
+        </section>
+        <section id="faq" class="faq-section">
+          <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <h3>What is StudyGenie?</h3>
+                <div class="accordion-content">
+                  <p>StudyGenie is an AI-powered platform designed to help students create personalized study plans, quizzes, summaries & flashcards directly from your notes.</p>
+
+                </div>
+              </div>
+              <div class="accordion item">
+                <h4>How does the AI work?</h4>
+                <div class="accordion-content">
+                  <p>Our AI uploads your notes, generates content and masters your materials.</p>
+
+                </div> 
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="footer-col">
+            <h4>StudyGenie</h4>
+            <p>Unlock Your Study Superpowers.</p>
+
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#hero-section">Hero Section</a></li>
+               <li><a href="#about-us-section">About Us</a></li>
+               <li><a href="#screenshots-section">Screenshots</a></li> 
+               <li><a href="#social-proof-section">Social Proof</a></li>
+               <li><a href="#faq-section">FAQ</a></li> 
+
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect With Us</h4>
+          <div class="social-links">
+            <li><a href="#facebook"><img src="" alt="Facebook"></a></li>
+            <li><a href="#twitter"><img src="" alt="Twitter"></a></li>
+            <li><a href="#linkedin"><img src="" alt="LinkedIn"></a></li>
+
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <p>Email: info@studygenie.com</p>
+
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 StudyGenie. All rights reserved.</p>
+
+        </div>
+         </div>
+      </footer>
+
+      <script src="script.js"></script>
+    
+    </body>
+
+      </head>
+
+</html>
